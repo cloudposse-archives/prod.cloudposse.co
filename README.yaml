@@ -41,11 +41,11 @@ description: |-
   * [helm](https://helm.sh/)
   * [helmfile](https://github.com/roboll/helmfile)
 
-includes:
+include:
   - "docs/terraform.md"
   - "docs/targets.md"
   - "docs/kops.md"
-  - "docs/backing-services"
+  - "docs/backing-services.md"
   - "docs/helmfile.md"
 
 quickstart: |-
