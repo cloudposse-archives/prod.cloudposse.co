@@ -65,10 +65,9 @@ source_profile=cpco
 
 __NOTE:__ You need to do it only once.
 
-We use [aws-vault](https://github.com/99designs/aws-vault)
-to store IAM credentials in your operating system's secure keystore and then generates temporary credentials from those to expose to your shell and applications.
+We use [aws-vault](https://docs.cloudposse.com/tools/aws-vault/) to store IAM credentials in your operating system's secure keystore and then generates temporary credentials from those to expose to your shell and applications.
 
-Install [aws-vault](https://github.com/99designs/aws-vault/releases) on your local computer first.
+Install [aws-vault](https://docs.cloudposse.com/tools/aws-vault/) on your local computer first.
 
 On MacOS, you may use `homebrew cask`
 
@@ -76,13 +75,15 @@ On MacOS, you may use `homebrew cask`
 brew cask install aws-vault
 ```
 
-Then setup your secret credentials in `aws-vault`
+Then setup your secret credentials for AWS in `aws-vault`
 ```bash
 aws-vault add --backend file cpco
 ```
 
 For more info, see [aws-vault](https://docs.cloudposse.com/tools/aws-vault/)
 
+
+## Examples
 
 ### Build Docker Image
 
@@ -182,7 +183,6 @@ init-terraform
 terraform plan
 terraform apply
 ```
-
 
 
 
