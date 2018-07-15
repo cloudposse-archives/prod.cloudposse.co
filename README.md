@@ -7,9 +7,9 @@
 
 Terraform/Kubernetes Reference Infrastructure for Cloud Posse Production Organization in AWS.
 
-__NOTE:__ Before creating the Production infrastructure, you need to provision the Parent ("Root") Organization in AWS (because it creates resources needed for all other accounts).
+__NOTE:__ Before creating the Production infrastructure, you need to provision the [Parent ("Root") Organization](https://github.com/cloudposse/root.cloudposse.co) in AWS (because it creates resources needed for all other accounts).
 
-Follow the steps in [README](https://github.com/cloudposse/root.cloudposse.co/blob/master/README.md) first. You need to do it only once.
+Follow the steps in [README](https://github.com/cloudposse/root.cloudposse.co) first. You need to do it only once.
 
 ## Introduction
 
