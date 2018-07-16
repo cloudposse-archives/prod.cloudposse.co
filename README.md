@@ -7,9 +7,7 @@
 
 Terraform/Kubernetes Reference Infrastructure for Cloud Posse Production Organization in AWS.
 
-__NOTE:__ Before creating the Production infrastructure, you need to provision the [Parent ("Root") Organization](https://github.com/cloudposse/root.cloudposse.co) in AWS (because it creates resources needed for all other accounts).
-
-Follow the steps in [README](https://github.com/cloudposse/root.cloudposse.co) first. You need to do it only once.
+__NOTE:__ Before creating the Production infrastructure, you need to provision the [Parent ("Root") Organization](https://github.com/cloudposse/root.cloudposse.co) in AWS (because it creates resources needed for all other accounts). Follow the steps in [README](https://github.com/cloudposse/root.cloudposse.co) first. You need to do it only once.
 
 ## Introduction
 
@@ -191,8 +189,14 @@ terraform apply
 ```
 Available targets:
 
+  all                                 Initialize build-harness, install deps, build docker container, install wrapper script and run shell
+  build                               Build docker image
+  deps                                Install dependencies (if any)
   help                                This help screen
   help/all                            Display help for all targets
+  install                             Install wrapper script from geodesic container
+  push                                Push docker image to registry
+  run                                 Start the geodesic shell by calling wrapper script
 
 ```
 ### Provision the Kops cluster
