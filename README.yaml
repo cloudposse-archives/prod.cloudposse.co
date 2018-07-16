@@ -1,7 +1,7 @@
 name: "prod.cloudposse.co"
 
 # Canonical GitHub repo
-github_repo: cloudposse/build-harness
+github_repo: "cloudposse/prod.cloudposse.co"
 
 # License of this project
 license: "APACHE2"

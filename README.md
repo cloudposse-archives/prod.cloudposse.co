@@ -587,7 +587,7 @@ For additional context, refer to some of these links.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/cloudposse/build-harness/issues), send us an [email][email] or join our [Slack Community][slack].
+File a GitHub [issue](https://github.com/cloudposse/prod.cloudposse.co/issues), send us an [email][email] or join our [Slack Community][slack].
 
 ## Commerical Support
 
@@ -614,7 +614,7 @@ Get access to our [Open Source Community Forum][slack] on Slack. It's **FREE** t
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/cloudposse/build-harness/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/cloudposse/prod.cloudposse.co/issues) to report any bugs or file feature requests.
 
 ### Developing
 
