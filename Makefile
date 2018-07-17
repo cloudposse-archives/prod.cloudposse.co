@@ -1,5 +1,5 @@
 export CLUSTER ?= prod.cloudposse.co
-export DOCKER_ORG ?= cpco
+export DOCKER_ORG ?= cloudposse
 export DOCKER_IMAGE ?= $(DOCKER_ORG)/$(CLUSTER)
 export DOCKER_TAG ?= latest
 export DOCKER_IMAGE_NAME ?= $(DOCKER_IMAGE):$(DOCKER_TAG)

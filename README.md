@@ -9,22 +9,6 @@ Terraform/Kubernetes Reference Infrastructure for Cloud Posse Production Organiz
 
 __NOTE:__ Before creating the Production infrastructure, you need to provision the [Parent ("Root") Organization](https://github.com/cloudposse/root.cloudposse.co) in AWS (because it creates resources needed for all other accounts). Follow the steps in [README](https://github.com/cloudposse/root.cloudposse.co) first. You need to do it only once.
 
-## Introduction
-
-We use [geodesic](https://github.com/cloudposse/geodesic) to define and build world-class cloud infrastructures backed by AWS and powered by Kubernetes.
-
-`geodesic` exposes many tools that can be used to define and provision AWS and Kubernetes resources.
-
-Here is the list of tools we use to provision `cloudposse.co` infrastructure:
-
-* [aws-vault](https://github.com/99designs/aws-vault)
-* [chamber](https://github.com/segmentio/chamber)
-* [terraform](https://www.terraform.io/)
-* [kops](https://github.com/kubernetes/kops)
-* [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/)
-* [helm](https://helm.sh/)
-* [helmfile](https://github.com/roboll/helmfile)
-
 
 ---
 
@@ -40,6 +24,22 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
+
+## Introduction
+
+We use [geodesic](https://github.com/cloudposse/geodesic) to define and build world-class cloud infrastructures backed by AWS and powered by Kubernetes.
+
+`geodesic` exposes many tools that can be used to define and provision AWS and Kubernetes resources.
+
+Here is the list of tools we use to provision `cloudposse.co` infrastructure:
+
+* [aws-vault](https://github.com/99designs/aws-vault)
+* [chamber](https://github.com/segmentio/chamber)
+* [terraform](https://www.terraform.io/)
+* [kops](https://github.com/kubernetes/kops)
+* [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/)
+* [helm](https://helm.sh/)
+* [helmfile](https://github.com/roboll/helmfile)
 
 
 ## Quick Start
@@ -77,6 +77,8 @@ Then setup your secret credentials for AWS in `aws-vault`
 ```bash
 aws-vault add --backend file cpco
 ```
+
+__NOTE:__ You should set `AWS_VAULT_BACKEND=file` in your shell rc config (e.g. `~/.bashrc`) so it persists.
 
 For more info, see [aws-vault](https://docs.cloudposse.com/tools/aws-vault/)
 
@@ -572,6 +574,7 @@ Check out these related projects.
 - [prod.cloudposse.co](https://github.com/cloudposse/prod.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Production Organization in AWS.
 - [staging.cloudposse.co](https://github.com/cloudposse/staging.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Staging Organization in AWS.
 - [dev.cloudposse.co](https://github.com/cloudposse/dev.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Development Sandbox Organization in AWS.
+- [testing.cloudposse.co](https://github.com/cloudposse/testing.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Testing Organization in AWS.
 
 
 
