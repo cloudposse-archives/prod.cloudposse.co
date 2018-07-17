@@ -2,7 +2,7 @@ FROM cloudposse/terraform-root-modules:0.4.5 as terraform-root-modules
 
 FROM cloudposse/geodesic:0.11.6
 
-ENV DOCKER_IMAGE="cpco/prod.cloudposse.co"
+ENV DOCKER_IMAGE="cloudposse/prod.cloudposse.co"
 ENV DOCKER_TAG="latest"
 
 ENV BANNER="prod.cloudposse.co"
