@@ -571,7 +571,6 @@ Check out these related projects.
 - [terraform-root-modules](https://github.com/cloudposse/terraform-root-modules) - Collection of Terraform "root module" invocations for provisioning reference architectures
 - [root.cloudposse.co](https://github.com/cloudposse/root.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Parent ("Root") Organization in AWS.
 - [audit.cloudposse.co](https://github.com/cloudposse/audit.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for an Audit Logs Organization in AWS.
-- [prod.cloudposse.co](https://github.com/cloudposse/prod.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Production Organization in AWS.
 - [staging.cloudposse.co](https://github.com/cloudposse/staging.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Staging Organization in AWS.
 - [dev.cloudposse.co](https://github.com/cloudposse/dev.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Development Sandbox Organization in AWS.
 - [testing.cloudposse.co](https://github.com/cloudposse/testing.cloudposse.co) - Example Terraform Reference Architecture of a Geodesic Module for a Testing Organization in AWS.
@@ -583,6 +582,7 @@ Check out these related projects.
 
 For additional context, refer to some of these links. 
 
+- [Reference Architecture Documentation](https://docs.cloudposse.com/reference-architectures/) - Futher explanation of how to use these reference architectures
 - [Cloud Posse Documentation](https://docs.cloudposse.com) - Complete documentation for the Cloud Posse solution
 - [Chamber](https://docs.cloudposse.com/tools/chamber/) - Chamber is a CRUD tool for managing secrets stored in AWS Systems Manager Parameter Store and exposing those secrets as Environment Variables to processes.
 - [The Right Way to Store Secrets using Parameter Store](https://aws.amazon.com/blogs/mt/the-right-way-to-store-secrets-using-parameter-store/) - Centrally and securely manage secrets with Amazon EC2 Systems Manager Parameter Store, lots of Terraform code, and chamber. This post has all the information you need to get running with Parameter Store in production.

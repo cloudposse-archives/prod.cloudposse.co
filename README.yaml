@@ -207,10 +207,6 @@ related:
     description: "Example Terraform Reference Architecture of a Geodesic Module for an Audit Logs Organization in AWS."
     url: "https://github.com/cloudposse/audit.cloudposse.co"
 
-  - name: "prod.cloudposse.co"
-    description: "Example Terraform Reference Architecture of a Geodesic Module for a Production Organization in AWS."
-    url: "https://github.com/cloudposse/prod.cloudposse.co"
-
   - name: "staging.cloudposse.co"
     description: "Example Terraform Reference Architecture of a Geodesic Module for a Staging Organization in AWS."
     url: "https://github.com/cloudposse/staging.cloudposse.co"
@@ -224,6 +220,10 @@ related:
     url: "https://github.com/cloudposse/testing.cloudposse.co"
 
 references:
+  - name: "Reference Architecture Documentation"
+    description: "Futher explanation of how to use these reference architectures"
+    url: "https://docs.cloudposse.com/reference-architectures/"
+
   - name: "Cloud Posse Documentation"
     description: "Complete documentation for the Cloud Posse solution"
     url: "https://docs.cloudposse.com"
