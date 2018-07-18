@@ -40,6 +40,9 @@ COPY --from=terraform-root-modules /aws/cloudtrail/ /conf/cloudtrail/
 COPY --from=terraform-root-modules /aws/kops/ /conf/kops/
 COPY --from=terraform-root-modules /aws/kops-aws-platform/ /conf/kops-aws-platform/
 
+# Place configuration in 'conf/' directory
+COPY conf/ /conf/
+
 # Filesystem entry for tfstate
 RUN s3 fstab '${TF_BUCKET}' '/' '/secrets/tf'
 
