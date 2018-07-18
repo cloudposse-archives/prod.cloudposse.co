@@ -51,13 +51,13 @@ quickstart: |-
 
   __NOTE:__ You need to do it only once.
 
-  Configure AWS profile in `~/.aws/config`. Make sure to change username (username@cloudposse.com) to your own.
+  Configure AWS profile in `~/.aws/config`. Make sure to change username (username@cloudposse.co) to your own.
 
   ```bash
   [profile cpco-prod-admin]
   region=us-west-2
-  role_arn=arn:aws:iam::590638247571:role/OrganizationAccountAccessRole
-  mfa_serial=arn:aws:iam::681280261279:mfa/username@cloudposse.com
+  role_arn=arn:aws:iam::845778104613:role/OrganizationAccountAccessRole
+  mfa_serial=arn:aws:iam::323330167063:mfa/username@cloudposse.co
   source_profile=cpco
   ```
 
